@@ -1,6 +1,7 @@
 # try
+<h1>HI</h1>
 <p> hello </p>
- <table style="width:100%">
+ <table>
   <tr>
     <th>Firstname</th>
     <th>Lastname</th>
