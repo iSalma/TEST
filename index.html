@@ -1,0 +1,118 @@
+<html>
+
+<head>
+
+  <title> Title </title>
+  <link rel="icon" href="1.png" type="image/png" sizes="16x16" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/index_style.css">
+
+</head>
+
+
+<body>
+
+  <p id="shareText">Lorem</p>
+  <!-- زر المشاركة الرابط علي نويتر  -->
+  <button onclick="twtPost('shareText', document.URL)">Tweet</button>
+
+  <br>
+  <br>
+
+  <!-- زر المشاركة الرابط علي فيسبوك  -->
+  <!-- رقم1 -->
+  <button onclick="fbPost('https://www.google.com/')">Share</button>
+
+  <br>
+  <br>
+
+  <!-- زر المشاركة الرابط علي فيسبوك  -->
+  <!-- رقم1 -->
+  <button onclick="whatsAppShare('shareText', document.URL)">Whatsapp</button>
+
+  <br>
+  <br>
+
+  <br>
+  <br>
+  <!--   زر مشاركة الرابط علي نويتر مع نسخ نص -->
+  <a id="tweetShare" class="twitter-share-button" data-text=" ">Tweet</a>
+
+  <br>
+  <br>
+
+  <!-- زر المشاركة الرابط علي نويتر  -->
+  <button class="btn btn-sm twitter-share tweetButton" data-js="twitter-share">Tweet <i
+      class="fab fa-twitter"></i></button>
+
+  <br>
+  <br>
+
+  <!-- زر المشاركة الرابط علي فيسبوك  -->
+  <!-- رقم1 -->
+  <button class="btn btn-sm facebook-share fbButton" data-js="facebook-share">Share <i
+      class="fab fa-facebook"></i></button>
+
+  <br>
+  <br>
+
+  <!-- زر المشاركة الرابط علي فيسبوك  -->
+  <!-- رقم 2 -->
+  <div id="fbShare" class="fb-share-button" data-href="" data-layout="button">
+  </div>
+
+  <br>
+  <br>
+
+  <!-- زر مشاركة علي الواتساب -->
+  <button onclick="whatsAppShare('shareText')"> Whatsapp </button>
+
+  <button onclick="tst()"> twitter </button>
+
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
+
+
+<!-- 
+<html>
+
+<head>
+
+  <meta property="og:url" content="https://www.your-domain.com/your-page.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Your Website Title" />
+  <meta property="og:description" content="Your description" />
+  <meta property="og:image" content="https://www.your-domain.com/path/image.jpg" />
+</head>
+
+<body>
+
+  <div id="fb-root"></div>
+  <script>(function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+  <div class="fb-share-button" data-href="https://www.your-domain.com/your-page.html" data-layout="button">
+  </div>
+
+
+
+  <a href="https://twitter.com/share" class="twitter-share-button" data-text="HELLO">Tweet</a>
+
+
+</body>
+
+</html> -->
